@@ -1,11 +1,12 @@
 ﻿.header {
-    height: 30vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: #1ec3fa;
+    background: #46dbe3;
+    border-bottom: 3px solid #4b574d;
 }
 
 .header-title {

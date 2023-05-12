@@ -2,4 +2,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(to right, #b7f4f7, #07e0eb);
 }
