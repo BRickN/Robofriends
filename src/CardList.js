@@ -1,19 +1,17 @@
 import React from 'react';
 import Card from './Card';
-import { robots } from './robots';
 
 import './CardList.css';
 
 
 class CardList extends React.Component {
+  
     render() {
-        const searchText = this.props.searchText;
-        const filteredRobots = robots?.filter(robot => {
-            return robot.name.toLowerCase().includes(searchText)
-        });
+        //const searchText = this.props.searchText;
+    
 
         const cardArray
-            = filteredRobots?.map((robot) => {
+            = this.props.robots?.map((robot) => {
                 return (
                     <Card
                         key={robot.id}
@@ -28,7 +26,9 @@ class CardList extends React.Component {
                 {cardArray}
             </div>
         );
+
     }
+
 }
 
 export default CardList;
