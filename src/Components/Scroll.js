@@ -1,5 +1,3 @@
-import reacht from 'react'
-
 
 function Scroll(props) {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import CardList from './CardList';
+import CardList from '../Components/CardList';
 import Header from './Header'
-import Scroll from './Scroll'
+import Scroll from '../Components/Scroll'
 import './App.css';
 
 class App extends React.Component {
