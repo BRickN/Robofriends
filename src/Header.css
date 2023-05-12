@@ -1,0 +1,14 @@
+﻿.header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #1ec3fa;
+}
+
+.header-title {
+    font-size: 40px;
+    line-height: 1.9;
+}

@@ -1,0 +1,14 @@
+.search-wrapper{
+    padding:20px;
+}
+
+.search-box{
+    padding:10px 25px;
+    border-radius:3px;
+    border:1px #3a3a3a solid;
+    cursor:text;
+}
+
+.search-box:focus{
+    outline:1px blue solid;
+}

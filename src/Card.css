@@ -1,0 +1,19 @@
+.robo-card {
+    background-color: #57fab1;
+    padding: 12px 20px;
+    margin: 10px 10px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    overflow: hidden;
+    width: 220px;
+}
+
+    .robo-card:hover {
+        transform: scale(1.03)
+    }
+
+    .robo-card:active {
+        transform: scale(0.98)
+    }
